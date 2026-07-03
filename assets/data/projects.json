@@ -7,7 +7,7 @@
       "description": "Site rassurant pour présenter l'équipe, les soins à domicile, la zone d'intervention et les contacts utiles.",
       "image": "assets/img/project-cabinet-infirmier.png",
       "demoUrl": "assets/img/project-cabinet-infirmier.png",
-      "codeUrl": "https://github.com/florentkurda",
+      "codeUrl": "https://florentkurda.github.io/Vitrine-Infirmiere/",
       "tags": ["HTML", "CSS", "Responsive"]
     },
     {
@@ -16,7 +16,7 @@
       "description": "Univers premium pour valoriser une histoire, des cuvées, un domaine et une expérience de visite.",
       "image": "assets/img/project-domaine-viticole.png",
       "demoUrl": "assets/img/project-domaine-viticole.png",
-      "codeUrl": "https://github.com/florentkurda",
+      "codeUrl": "https://florentkurda.github.io/Domaine-viticole/",
       "tags": ["HTML", "CSS Grid", "SEO"]
     },
     {
@@ -25,7 +25,7 @@
       "description": "Portfolio immersif avec galeries, séries visuelles, présentation du regard et appel à collaboration.",
       "image": "assets/img/project-photographe-nature.png",
       "demoUrl": "assets/img/project-photographe-nature.png",
-      "codeUrl": "https://github.com/florentkurda",
+      "codeUrl": "https://florentkurda.github.io/Site-Galerie/",
       "tags": ["JavaScript", "Galerie", "Mobile-first"]
     },
     {
@@ -34,8 +34,17 @@
       "description": "Site chaleureux pour afficher l'ambiance, les menus, les horaires, l'adresse et la réservation.",
       "image": "assets/img/project-restaurant-bistrot.png",
       "demoUrl": "assets/img/project-restaurant-bistrot.png",
-      "codeUrl": "https://github.com/florentkurda",
+      "codeUrl": "https://florentkurda.github.io/Vitrine-Bistro/",
       "tags": ["HTML", "CSS", "Performance"]
-    }
+    },
+	{
+      "title": "Spa et relaxation",
+      "category": "Portfolio",
+      "description": "",
+      "image": "assets/img/project-spa.png",
+      "demoUrl": "assets/img/project-spa.png",
+      "codeUrl": "https://florentkurda.github.io/Vitrine-Spa/",
+      "tags": ["JavaScript", "Galerie", "Mobile-first"]
+    },
   ]
 }
