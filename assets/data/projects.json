@@ -1,0 +1,41 @@
+{
+  "_comment": "Pour ajouter un projet, dupliquez un objet dans le tableau projects. Gardez les memes cles: title, category, description, image, demoUrl, codeUrl, tags. Laissez codeUrl vide pour masquer le bouton Voir le code.",
+  "projects": [
+    {
+      "title": "Cabinet infirmier",
+      "category": "Santé",
+      "description": "Site rassurant pour présenter l'équipe, les soins à domicile, la zone d'intervention et les contacts utiles.",
+      "image": "assets/img/project-cabinet-infirmier.png",
+      "demoUrl": "assets/img/project-cabinet-infirmier.png",
+      "codeUrl": "https://github.com/florentkurda",
+      "tags": ["HTML", "CSS", "Responsive"]
+    },
+    {
+      "title": "Domaine viticole",
+      "category": "Artisanat",
+      "description": "Univers premium pour valoriser une histoire, des cuvées, un domaine et une expérience de visite.",
+      "image": "assets/img/project-domaine-viticole.png",
+      "demoUrl": "assets/img/project-domaine-viticole.png",
+      "codeUrl": "https://github.com/florentkurda",
+      "tags": ["HTML", "CSS Grid", "SEO"]
+    },
+    {
+      "title": "Photographe nature",
+      "category": "Portfolio",
+      "description": "Portfolio immersif avec galeries, séries visuelles, présentation du regard et appel à collaboration.",
+      "image": "assets/img/project-photographe-nature.png",
+      "demoUrl": "assets/img/project-photographe-nature.png",
+      "codeUrl": "https://github.com/florentkurda",
+      "tags": ["JavaScript", "Galerie", "Mobile-first"]
+    },
+    {
+      "title": "Restaurant / bistrot",
+      "category": "Restauration",
+      "description": "Site chaleureux pour afficher l'ambiance, les menus, les horaires, l'adresse et la réservation.",
+      "image": "assets/img/project-restaurant-bistrot.png",
+      "demoUrl": "assets/img/project-restaurant-bistrot.png",
+      "codeUrl": "https://github.com/florentkurda",
+      "tags": ["HTML", "CSS", "Performance"]
+    }
+  ]
+}
