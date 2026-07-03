@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio de Florent Kurda, développeur web freelance spécialisé dans les sites vitrines modernes, rapides et responsives pour indépendants et petites entreprises."
+    />
+    <title>Florent Kurda | Développeur web freelance</title>
+    <link rel="icon" href="assets/img/logo-fk.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#accueil" aria-label="Accueil Florent Kurda">
+        <img src="assets/img/logo-fk.svg" alt="" width="42" height="42" />
+        <span>Florent Kurda</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" data-nav-toggle>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" aria-label="Navigation principale" data-nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#services">Services</a>
+        <a href="#realisations">Réalisations</a>
+        <a href="#apropos">À propos</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="header-cta" href="mailto:contact@example.com">Me contacter</a>
+    </header>
+
+    <main>
+      <section class="hero section" id="accueil">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Sites vitrines rapides, lisibles et maintenables</p>
+          <h1>Florent Kurda — Développeur web freelance</h1>
+          <p class="hero-lead">
+            Je crée des sites vitrines modernes, rapides et responsives pour indépendants,
+            artisans et petites entreprises.
+          </p>
+          <div class="hero-actions" aria-label="Actions principales">
+            <a class="btn btn-primary" href="#realisations">Voir mes réalisations</a>
+            <a class="btn btn-secondary" href="mailto:contact@example.com">Me contacter</a>
+          </div>
+        </div>
+
+        <aside class="hero-panel reveal" aria-label="Compétences clés">
+          <div class="panel-topline">
+            <span class="status-dot"></span>
+            Disponible pour projets freelance
+          </div>
+          <h2>Compétences clés</h2>
+          <ul class="skill-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Responsive design</li>
+            <li>GitHub Pages</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="section services-section" id="services">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Services</p>
+          <h2>Des sites vitrines pensés pour être utiles dès le premier jour.</h2>
+          <p>
+            Je conçois des pages claires, rapides et faciles à maintenir, adaptées aux
+            petites structures qui veulent inspirer confiance sans complexité inutile.
+          </p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card reveal">
+            <span class="card-index">01</span>
+            <h3>Site vitrine</h3>
+            <p>Une présence en ligne complète pour présenter votre activité, vos offres et vos points forts.</p>
+          </article>
+          <article class="service-card reveal">
+            <span class="card-index">02</span>
+            <h3>Landing page</h3>
+            <p>Une page ciblée pour une offre, un lancement, une prise de contact ou une campagne locale.</p>
+          </article>
+          <article class="service-card reveal">
+            <span class="card-index">03</span>
+            <h3>Refonte graphique</h3>
+            <p>Un design plus lisible, plus moderne et mieux adapté aux usages mobiles actuels.</p>
+          </article>
+          <article class="service-card reveal">
+            <span class="card-index">04</span>
+            <h3>Intégration HTML/CSS/JS</h3>
+            <p>Des interfaces responsives, propres et performantes, sans dépendances superflues.</p>
+          </article>
+          <article class="service-card reveal">
+            <span class="card-index">05</span>
+            <h3>Mise en ligne</h3>
+            <p>Publication, nom de domaine, hébergement statique et configuration de base.</p>
+          </article>
+          <article class="service-card reveal">
+            <span class="card-index">06</span>
+            <h3>SEO technique de base</h3>
+            <p>Structure sémantique, balises essentielles, performances et bonnes pratiques d'indexation.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="realisations">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Réalisations</p>
+          <h2>Quatre directions pour montrer différents styles de sites vitrines.</h2>
+          <p>
+            Projets de démonstration réalisés pour illustrer différents styles de sites vitrines.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <a class="project-image" href="assets/img/project-cabinet-infirmier.png" target="_blank" rel="noreferrer" aria-label="Voir l'aperçu Cabinet infirmier">
+              <img src="assets/img/project-cabinet-infirmier.png" alt="Aperçu d'un site vitrine pour cabinet infirmier" loading="lazy" />
+            </a>
+            <div class="project-content">
+              <h3>Cabinet infirmier</h3>
+              <p>Site rassurant pour présenter l'équipe, les soins à domicile, la zone d'intervention et les contacts utiles.</p>
+              <div class="tag-list" aria-label="Technologies utilisées">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Responsive</span>
+              </div>
+              <div class="project-actions">
+                <a class="link-button" href="assets/img/project-cabinet-infirmier.png" target="_blank" rel="noreferrer">Voir le site</a>
+                <a class="link-button ghost" href="https://github.com/florentkurda" target="_blank" rel="noreferrer">Voir le code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <a class="project-image" href="assets/img/project-domaine-viticole.png" target="_blank" rel="noreferrer" aria-label="Voir l'aperçu Domaine viticole">
+              <img src="assets/img/project-domaine-viticole.png" alt="Aperçu d'un site vitrine pour domaine viticole" loading="lazy" />
+            </a>
+            <div class="project-content">
+              <h3>Domaine viticole</h3>
+              <p>Univers premium pour valoriser une histoire, des cuvées, un domaine et une expérience de visite.</p>
+              <div class="tag-list" aria-label="Technologies utilisées">
+                <span>HTML</span>
+                <span>CSS Grid</span>
+                <span>SEO</span>
+              </div>
+              <div class="project-actions">
+                <a class="link-button" href="assets/img/project-domaine-viticole.png" target="_blank" rel="noreferrer">Voir le site</a>
+                <a class="link-button ghost" href="https://github.com/florentkurda" target="_blank" rel="noreferrer">Voir le code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <a class="project-image" href="assets/img/project-photographe-nature.png" target="_blank" rel="noreferrer" aria-label="Voir l'aperçu Photographe nature">
+              <img src="assets/img/project-photographe-nature.png" alt="Aperçu d'un site vitrine pour photographe nature" loading="lazy" />
+            </a>
+            <div class="project-content">
+              <h3>Photographe nature</h3>
+              <p>Portfolio immersif avec galeries, séries visuelles, présentation du regard et appel à collaboration.</p>
+              <div class="tag-list" aria-label="Technologies utilisées">
+                <span>JavaScript</span>
+                <span>Galerie</span>
+                <span>Mobile-first</span>
+              </div>
+              <div class="project-actions">
+                <a class="link-button" href="assets/img/project-photographe-nature.png" target="_blank" rel="noreferrer">Voir le site</a>
+                <a class="link-button ghost" href="https://github.com/florentkurda" target="_blank" rel="noreferrer">Voir le code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <a class="project-image" href="assets/img/project-restaurant-bistrot.png" target="_blank" rel="noreferrer" aria-label="Voir l'aperçu Restaurant bistrot">
+              <img src="assets/img/project-restaurant-bistrot.png" alt="Aperçu d'un site vitrine pour restaurant bistrot" loading="lazy" />
+            </a>
+            <div class="project-content">
+              <h3>Restaurant / bistrot</h3>
+              <p>Site chaleureux pour afficher l'ambiance, les menus, les horaires, l'adresse et la réservation.</p>
+              <div class="tag-list" aria-label="Technologies utilisées">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Performance</span>
+              </div>
+              <div class="project-actions">
+                <a class="link-button" href="assets/img/project-restaurant-bistrot.png" target="_blank" rel="noreferrer">Voir le site</a>
+                <a class="link-button ghost" href="https://github.com/florentkurda" target="_blank" rel="noreferrer">Voir le code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section about-section" id="apropos">
+        <div class="about-layout">
+          <div class="section-heading reveal">
+            <p class="eyebrow">À propos</p>
+            <h2>Un profil technique, avec le goût des interfaces simples.</h2>
+          </div>
+          <div class="about-copy reveal">
+            <p>
+              Je suis développeur avec une expérience en projets web, outils métiers et
+              bases de données. J'aime créer des interfaces claires, utiles et adaptées
+              aux vrais besoins des utilisateurs. Mon objectif est d'aider les petites
+              structures à avoir une présence en ligne professionnelle, moderne et facile
+              à maintenir.
+            </p>
+            <div class="about-points" aria-label="Points forts">
+              <span>Écoute du besoin</span>
+              <span>Code maintenable</span>
+              <span>Design responsive</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section process-section" aria-labelledby="process-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Méthode de travail</p>
+          <h2 id="process-title">Une progression claire, du besoin à la mise en ligne.</h2>
+        </div>
+
+        <ol class="process-list">
+          <li class="process-item reveal">
+            <span>01</span>
+            <h3>Échange sur le besoin</h3>
+            <p>On clarifie vos objectifs, vos contenus, votre cible et les contraintes du projet.</p>
+          </li>
+          <li class="process-item reveal">
+            <span>02</span>
+            <h3>Structure du site</h3>
+            <p>Je propose une organisation simple pour guider naturellement vos visiteurs.</p>
+          </li>
+          <li class="process-item reveal">
+            <span>03</span>
+            <h3>Design</h3>
+            <p>L'identité visuelle est posée avec une attention forte à la lisibilité.</p>
+          </li>
+          <li class="process-item reveal">
+            <span>04</span>
+            <h3>Intégration responsive</h3>
+            <p>Le site est développé en HTML, CSS et JavaScript pour fonctionner sur tous les écrans.</p>
+          </li>
+          <li class="process-item reveal">
+            <span>05</span>
+            <h3>Mise en ligne</h3>
+            <p>Je prépare la publication, les réglages essentiels et les vérifications finales.</p>
+          </li>
+          <li class="process-item reveal">
+            <span>06</span>
+            <h3>Ajustements</h3>
+            <p>On affine les derniers détails pour obtenir un rendu propre et professionnel.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="contact-box reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Un site vitrine moderne pour votre activité ? Parlons-en.</h2>
+          <p>
+            Décrivez-moi votre projet, votre activité et vos priorités. Je vous réponds avec une
+            première direction claire et réaliste.
+          </p>
+
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="mailto:florent.kurda@example.com">Me contacter par email</a>
+            <a class="btn btn-secondary" href="https://malt.fr/profile/florentkurda" target="_blank" rel="noreferrer">Malt</a>
+            <a class="btn btn-secondary" href="https://www.linkedin.com/in/florentkurda/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="btn btn-secondary" href="https://github.com/florentkurda" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+
+          <p class="contact-email">florent.kurda@example.com</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span data-year></span> Florent Kurda</span>
+      <a href="#accueil">Retour à l'accueil</a>
+    </footer>
+
+    <button class="back-to-top" type="button" aria-label="Retour en haut" data-back-to-top>
+      ↑
+    </button>
+  </body>
+</html>

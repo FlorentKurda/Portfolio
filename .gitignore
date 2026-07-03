@@ -1,0 +1,6 @@
+dist/
+node_modules/
+outputs/
+work/
+.DS_Store
+Thumbs.db
